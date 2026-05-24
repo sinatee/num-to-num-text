@@ -13,6 +13,7 @@
 #include <unistd.h>
 
 int		check_str_num(char *str);
+void	check_dict_and_print(char *dict, char *num_str);
 
 int	main(int count, char **array)
 {
@@ -37,5 +38,6 @@ int	main(int count, char **array)
 		write(1, "Error\n", 6);
 		return (0);
 	}
+	check_dict_and_print(dict, num_str);
 	return (0);
 }
