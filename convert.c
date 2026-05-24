@@ -46,7 +46,7 @@ void	print_number(t_map *map, char *num_str)
 		{
 			if (!first)
 				print(" ");
-			print_block(map, num_str, len(num_str), b_len);
+			print_block(map, num_str, len(num_str), block_len);
 			first = 0;
 		}
 		num_str += block_len;
